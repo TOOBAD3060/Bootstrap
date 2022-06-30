@@ -43,7 +43,7 @@
             <div class="row text-center">
 
             <div class="col-md-4">
-                    <img class="img-fluid first rounded" src="myImages/first3.jpg" width="400px">
+                  <img class="img-fluid first rounded" src="myImages/first3.jpg" width="400px">
             </div>
             <div class="col-md-8" id="second" >
                 <p>Hello, my name is</p>
@@ -62,7 +62,7 @@
               <!-- Our services -->
    <section class="background">
         <div class="container">
-            <h2 class="text-center">Our Services</h2>
+            <h2 class="text-center mb-5 ">Our Services</h2>
             <div class="d-flex justify-content-center ">
                 <div class="bg-dark">
                   <img class="d-block m-auto" src="myImages/show.png" width="30px">
@@ -97,7 +97,7 @@
      <section class="anotherbg">
 <div class="container bootstrap">
  <p class="font-weight-bold text-capitalize text-white  m-auto"> This is a bootstrap website </p>
-  <button class=" btn-info btn-lg" >What do you feel?</button>
+  <button class="btn-info btn-lg" >What do you feel?</button>
 </div>
         
       </section>
@@ -114,6 +114,19 @@
                   <img  src="myImages/google-symbol.png" width="30px">
                 </div>
       </div>
+        
+      <footer>
+   
+        <p class="text-center font-weight-bold">Copyright&copy; <span></span> </p>
 
+      </footer>
+
+
+      <script>
+const footerSpanText= document.querySelector("footer span")
+const currentYear= new Date().getFullYear()
+ footerSpanText.textContent=currentYear
+
+      </script>
 </body>
 </html>

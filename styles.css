@@ -6,7 +6,6 @@
 #bgColor{
     background-color: black;
 }
-
 /* nav menu  */
 nav.navbar h1{
     color: white;
@@ -20,8 +19,6 @@ nav.navbar a{
 }
 
 /* first container */
-
-
 .container.first p{
     font-size: 20px;
     color: #fff;
@@ -29,11 +26,9 @@ nav.navbar a{
 .container.first h3{
     color: #fff;
 }
-
 .container.first #second{
    margin-top: 2em;
 }
-
 img.first{
     width: 100%;
 }
@@ -46,14 +41,12 @@ img.first{
     left: -50px;
     cursor: pointer;
 }
-
 span.move{
     position: relative;
     left: 20px;
 }
 
 /* second container */
-
 .container .bg-dark{
     width: 200px;
     height: 230px;
@@ -68,17 +61,6 @@ p.web{
     text-align: center;
     font-weight: bold;
 }
-/* media scree for second container */
-/* @media screen  and (max-width:500px){
-    .container .bg-dark{
-        width: 50px;
-        height: 230px;
-        margin-right: 25px;
-        border-radius: 10px;
-        padding: 5px  15px;
-        color: red;
-    } */
-/* } */
 section+.background{
     width: 100%;
     background-color: grey;
